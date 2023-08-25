@@ -8,5 +8,10 @@ body {
 }
 .heading {
     color: white;
-    
+
+}
+.caja {
+    background-color:hsl(244, 38%, 16%) ;
+}
+img {
 }
