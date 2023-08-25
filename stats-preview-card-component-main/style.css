@@ -1,17 +1,51 @@
 body { 
     background-color: black;
     font-size: 15px;
+
 }
 .card {
-    background-color: - Dark desaturated blue (card background) hsl(244, 38%, 16%)
-
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .heading {
     color: white;
 
 }
 .caja {
+    border-radius: 10%;
+    display: flex;
     background-color:hsl(244, 38%, 16%) ;
+    bottom: auto;
+    flex-direction: column;
+    align-items: center;
 }
 img {
+
+    border-radius: 10%;
+    width: 100%;
+    height: 100%;
+}.one{
+    color: var(--main-heading-stats);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 20px;
+    font-size: 20px;
+}
+.two {
+    color: var(--stat-headings);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin: 0 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.view {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
